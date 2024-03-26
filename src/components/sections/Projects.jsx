@@ -104,8 +104,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects. From UI Design to web developemnt. Here are some of my projects.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -116,24 +115,24 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
+            active={toggle === "web development"}
+            onClick={() => setToggle("web development")}
           >
-            WEB APP"S
+            WEB DEVELOPEMENT
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+            active={toggle === "uiux design"}
+            onClick={() => setToggle("uiux design")}
           >
-            ANDROID APP'S
+            UI/UX DESIGN
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            active={toggle === "graphics design"}
+            onClick={() => setToggle("graphics design")}
           >
-            MACHINE LEARNING
+            GRAPHICS DESIGN
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
